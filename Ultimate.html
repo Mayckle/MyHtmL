@@ -13,15 +13,16 @@
     }
     header{
         width: 1300px;
-        background: salmon;
-        color: black;
+        background: black;
+        color: red;
         height: 90px;
         float: left;
     }
     aside{
         width: 200px;
         height: 90px;
-        background: sienna;
+        background:#11569a;
+        color: red;
         float: right;
     }
     nav{
@@ -34,19 +35,20 @@
     main{
         width: 1200px;
         height: 1000px;
-        background: chartreuse;
+        background:#151714;
         float: right;
     }
     main article{
        margin: 10px;
        width: 580px;
        height: 310px;
-       background: chocolate;
+       background:black;
+       color: red;
        object-fit: cover;
        float: left;
     }
     footer{
-background: darkgoldenrod;
+background: black;
 width: 1500px;
 height: 70px;
 clear: both;
@@ -81,7 +83,7 @@ clear: both;
 </nav>
 <main>
     <article><img src="teaser.png" width="100%" height="90%">
-    <h3 style="background: red; padding: 4px; margin: 0px;">It's a teaser of our new Hero</h3></article>
+    <h3 style="background: red; padding: 4px; margin: 0px; color: rgb(12, 47, 82);">It's a teaser of our new Hero</h3></article>
     <article>
 <h1>Do you want to be a member?
 sign up you Warrior!</h1>
@@ -101,9 +103,10 @@ sign up you Warrior!</h1>
 <th><input style="background: black; color: red;" oninvalid="xmessage1(this)" oninput="xmessage1(this)" type="email" required/></th>
 </tr>
 <tr>
-    <td><button style="background: black; color: red; font-size: large;" type="submit" >Let's go</button></td>
+    <td><button style="background: black; color: red; width: 40% height: 20%;;" type="submit" >Let's go</button></td>
 </tr>
 </table>
+</form>
     </article>
     <article><h1>Krieger, während wir an unserer nächsten Seaon (Start am 11. Juni 2020) arbeiten, hatten wir versprochen, einige ehemalige Inhalte wieder ins Spiel zu bringen. Hier sind sie nun!
         Jede Woche im Mai bringen wir beliebte Spielmodi und Aktivitäten zurück und bieten dazu die Belohnungen in allen Spielmodi* an.</h1>
@@ -116,7 +119,11 @@ sign up you Warrior!</h1>
     <button onclick="closeD()"> close</button>
 </dialog>
                 </article>
-    <article></article>
+    <article>
+        <a href="Arm.jpg" download> <h1 style="color: red;">download the file</h1></a>
+        <br>
+    <a href="funny.mp4" download="file name after downloading.mp4" > <h1 style="color: red;">download the file</h1></a> 
+    </article>
     <article></article>
     <article></article>
 
@@ -126,10 +133,10 @@ sign up you Warrior!</h1>
 </main>
 <footer>
 <marquee>
-    <a href="https://www.youtube.com/channel/UC9ToquMB91oKJsLS3GkTwEg?view_as=subscriber"><h1>Breaking News: Season 14 reveal will be broadcasted on our Youtube Channal</h1></marquee></a>
+    <a href="https://www.youtube.com/channel/UC9ToquMB91oKJsLS3GkTwEg?view_as=subscriber"><h1 style="color: red;">Breaking News: Season 14 reveal will be broadcasted on our Youtube Channal</h1></marquee></a>
 </footer>
 
-</form>
+
 <script>
  function xmessage(input){
         if(input.value == '')
