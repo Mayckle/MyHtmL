@@ -59,6 +59,8 @@ main article{
 }
 #sa:hover{
     opacity: 1.5;
+    width: 30%;
+height: 40%;
 }
 #vik{
    opacity: 0.5;
@@ -68,6 +70,8 @@ main article{
 }
 #vik:hover{
     opacity: 1.5;
+    width: 30%;
+height: 40%;
 
 }
 footer{
