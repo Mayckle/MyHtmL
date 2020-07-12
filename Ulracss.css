@@ -23,6 +23,10 @@ aside{
     color: red;
     float: right;
 }
+aside select{
+    background-color: black;
+    color: red;
+}
 nav{
     width: 300px;
     height: 1000px;
