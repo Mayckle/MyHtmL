@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayckle</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="Ulracss.css">
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&display=swap" rel="stylesheet">
+</head>
+
+
+<body id=ID_body>
+    
+<form>
+    
+<header>
+
+<em style="font-size: 40px;line-height: 90px; padding-bottom: 10px; text-shadow: 2px 3px #5d3434; ">The official Website of For Honor </em>
+
+</header>
+<aside>
+<select  style=" width: 100%; height: 100%; font-size: xx-large;
+ background: #000000; color: red;
+ background: linear-gradient(to right, #000000, #434343);">
+    <option value="">Hero</option>
+    <option value="">News</option>
+    <option value="">Contact</option>
+    <option value="">Our team</option>
+
+</select>
+
+</aside>
+<nav>
+<article><img src="nav.PNG" ></article>
+    <article><h3 style="padding-left: 10px;">Nach einer großen Katastrophe stoßen drei der stärksten Kriegerfraktionen der Geschichte in einer epischen Schlacht ums Überleben aufeinander. Erlebe das Chaos des Krieges als mutiger Ritter, brutaler Wikinger oder tödlicher Samurai und kämpfe für die Ehre deiner Fraktion. Bahne dir einen Pfad der Zerstörung durch das Schlachtfeld in diesem temporeichen Thriller, in dem Fähigkeiten mit körperlichen Nahkampf kombiniert werden.</h3></article>
+</nav>
+<main>
+    <article><img src="teaser.png" id="img1" width="100%" height="90%">
+    <h3 style="background: red; padding: 4px; margin: 0px; color: rgb(12, 47, 82); border-style: groove;">It's a teaser of our new Hero</h3></article>
+    <article>
+
+<table id="tab">
+    <tr>
+        <th> Do you want to be a member?
+            sign up you Warrior!</th>
+    </tr>
+    <tr>
+   <td><label>Your name:</label></td> 
+
+   <th><input style="background: black; color: red;" oninvalid="xmessage(this)" oninput="xmessage(this)" type="text" required></th>
+</tr>
+<tr>
+<td><label>Your fav. Warrior:</label></td>
+<th><input style="background: black; color: red;" type="text"></th>
+</tr>
+<tr>
+
+   <td><label>Your Email:</label></td> 
+<th><input style="background: black; color: red;" oninvalid="xmessage1(this)" oninput="xmessage1(this)" type="email" required/></th>
+</tr>
+
+</table>
+<button style="background: black; color: red; width: 40% height: 20%;;" type="submit" >Let's go</button>
+</form>
+    </article>
+    <article><h1>Krieger, während wir an unserer nächsten Seaon (Start am 11. Juni 2020) arbeiten, hatten wir versprochen, einige ehemalige Inhalte wieder ins Spiel zu bringen. Hier sind sie nun!
+        Jede Woche im Mai bringen wir beliebte Spielmodi und Aktivitäten zurück und bieten dazu die Belohnungen in allen Spielmodi* an.</h1>
+  <button style="background: black; color: red;" onclick="openD()"> To know more click</button> 
+  <dialog id="dia">
+       
+    <h2> the Name of the new hero is Armusha</h2>
+    <img src="Arm.jpg" width="200px" />
+    <br>
+    <button onclick="closeD()"> close</button>
+</dialog>
+                </article>
+    <article>
+       <h1 id="classes">For Honor Klassen:</h1>
+               <h2 class="classa">VANGUARDS     &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <span style="font-size: medium;">While not as tanky as the Heavies or as fast as the Assassins, the Vanguard's jack-of-all-trades nature grants them the flexibility to put themselves on equal grounds against the more specialized Hero type. Wielding what could be called the symbol of their faction, they are well-balanced warriors with good attack and defense capabilities.</span>
+       </h2>
+       <h2 class="classa">ASSASSIN &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<span style="font-size: medium;">They are swift and lethal, boasting evasive skills that compound well with their excellent offensive capabilities.
+At the cost of lacking defensive options compared to the other three types of Heroes (the Hybrids, the Heavies, and the Vanguards), the Assassins are quick to strike and are speedy on foot. </span>
+       </h2>
+       <h2 class="classa">HEAVIES &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<span style="font-size: medium;">Easy to identify by either their robust build or a noticeable tool of defense, these Heroes sport high resistance and defensive options.
+These beefy warriors hold the highest raw survivability compared to the other three types of Heroes (the Hybrids, the Assassins, and the Vanguards), some of them notably able to deliver devastating damage in a single hit. However, because they are not as mobile, they are typically tasked with working with the team to hold positions until reinforcements arrive.</span>
+       </h2>
+
+    </article>
+    <article id="art5">
+        <h1>| Choose the faction you want to know about:</h1>
+       <a href="https://merch.ubisoft.com/The-Samurai-Faction/" style="padding-left: 20px; padding-right: 40px;"> <img id="sa" src="sam.png" ></a> 
+        <a href="https://merch.ubisoft.com/The-viking-Faction/"> <img id="vik" src="vik.png" ></a>
+    </article>
+   
+
+
+
+    
+</main>
+<footer>
+<marquee>
+    <a href="https://www.youtube.com/channel/UC9ToquMB91oKJsLS3GkTwEg?view_as=subscriber"><h1 style="color: red;">Breaking News: Season 14 reveal will be broadcasted on our Youtube Channal</h1></marquee></a>
+</footer>
+
+
+<script>
+ function xmessage(input){
+        if(input.value == '')
+        {input.setCustomValidity('كتوب صح يامحترم');}
+        else if (input.validity.typeMismatch){
+            input.setCustomValidity('حباب عبيه صح')
+        }
+        else { input.setCustomValidity('');}
+        return true;
+    }
+    function xmessage1(input){
+        if(input.value == '')
+        {input.setCustomValidity('جاري نسيت تعبي هون');}
+        else if (input.validity.typeMismatch){
+            input.setCustomValidity('الله وكيلك مو صح')
+        }
+        else { input.setCustomValidity('');}
+        return true;
+    }
+    function openD(){
+document.getElementById("dia").setAttribute("open", "true");
+        }
+        function closeD(){
+            document.getElementById("dia").removeAttribute("open");
+
+        }
+
+</script>
+</body>
+</html>
